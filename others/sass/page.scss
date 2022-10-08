@@ -1,0 +1,47 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-image: url(../../images/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.container{
+  color:#fff;
+}
+.container1{
+  background-color: $background-color;
+  width: 450px;
+  height: auto;
+  font-size: 0.85rem;
+}
+.topLogo{
+  width: 185px;
+}
+
+.container1{
+  font-size: 1rem;
+}
+
+
+.btn-Send{
+  border-color: $btn-color;
+  color: $btn-color;
+  &:hover{
+    background-color: $btn-color;
+  }
+}
+.paragraph{
+  margin:8px 0px; 
+  
+} 
+
+.footer{
+  margin-bottom: -80px;
+}

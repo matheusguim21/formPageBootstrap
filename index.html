@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rumo a Marte - OneBitX</title>
+  <!-- CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- link CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Link icone pagina -->
+  <link rel="shortcut icon" href="images/FAVICON-SPACEX.png" type="image/x-icon">
+
+
+</head>
+<body class="py-5">
+  
+  <div class="container px-4 container1">
+    <!-- Logo -->
+    <div class="text-center" >
+      <img class="img-fluid mt-4 topLogo" id="logo" src="./images/logoOneBitDark.png" alt="LPLOGO" >
+    </div>
+    <!-- Primeira parte do formulário (Texts) -->
+    <p class="paragraph mt-3 mb-2">1 -Qual o seu nome?</p>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Primeiro nome:</span>
+      <input type="text" class="form-control" placeholder="Digite Aqui" aria-label="Username" aria-describedby="basic-addon1">   
+    </div>
+    <div class="input-group mb-2">
+        <span class="input-group-text" id="basic-addon1">Segundo nome:</span>
+        <input type="text" class="form-control" placeholder="Digite Aqui" aria-label="Lastname" aria-describedby="basic-addon1">   
+    </div>
+
+    <!-- Segunda Parte Formulário (radios) -->
+
+    <div class="radios mt-2" >
+      <p class="paragraph mb-1">2 - Qual seu genêro?</p>
+
+      <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" value="homem">
+        <label class="custom-control-label" for="customRadio1">Homem</label>
+      </div>
+      <div class="custom-control custom-radio ">
+        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" value="mulher">
+        <label class="custom-control-label" for="customRadio2">Mulher</label>
+      </div>
+  
+      <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input" value="nao_respondeu">
+        <label class="custom-control-label" for="customRadio3">Prefiro não informar</label>
+      </div>
+    </div>
+
+    <!-- Terceira Parte Formulário(Switches) -->
+    
+    <div class="swicthes mt-2">
+      <p class="paragraph mb-2">3- Marque os treinamentos que você já fez:</p>
+
+      <div class="form-check form-switch mt-0">
+        <input class="form-check-input" type="checkbox" role="switch" id="switch1">
+        <label class="form-check-label" for="switch1">Treinamento básico de astronauta</label>
+      </div>
+      
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="switch2">
+        <label class="custom-check-label"  for="switch2">Treinamento físico básico</label>
+      </div>
+  
+      <div class="form-check form-switch">
+        <input type="checkbox" class="form-check-input" role="switch" id="switch3" >
+        <label class="custom-check-label" for="switch3">Treinamento avançado de astronauta</label>
+      </div>
+      <div class="form-check form-switch">
+        <input type="checkbox" class="form-check-input" id="switch4" role="switch">
+        <label for="switch4" class="custom-check-label">Treinamento físico intenso</label>
+      </div>
+    </div>
+
+
+    
+    <!-- Quarta Parte Formulário (checkboxs)-->
+
+
+    <div class="checkboxs mt-2">
+
+      <p class="paragraph">4 - Quais você acha que são suas qualidades?</p>
+
+      <div class="form-check form-check-inline ">
+        <input class="form-check-input" id="checkbox1" value="proativo" type="checkbox">
+        <label class="form-check-label" for="checkbox1">Proativo</label>
+      </div>
+  
+      <div class="form-check form-check-inline">
+        <input type="checkbox" class="form-check-input" id="checkbox2" value="resistente">
+        <label for="checkbox2" class="form-check-label">Resistente</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input type="checkbox" class="form-check-input" id="checkbox3" value="nao_vomito_facil">
+        <label for="checkbox3" class="form-check-label">Não vomito fácil</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input type="checkbox" class="form-check-input" id="checkbox4" value="nao_temo_marciano">
+        <label for="checkbox4" class="form-check-label">Não temo marciano</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input type="checkbox" class="form-check-input" id="checkbox5" value="ja_vi_todos_star_wars">
+        <label for="checkbo5" class="form-check-label">Já vi todos os Star Wars</label>
+      </div>
+      
+    </div>
+
+
+    <div class="text-center"><button type="button" class="btn btn-outline-danger mt-3 mb-3 btn-Send" >Enviar</button></div>
+
+
+
+    <!-- Fim Container -->
+  </div>
+  
+  <div class="container footer text-center mt-3">
+    <p class="paragraph">Feito por Matheus Guimarães &copy; &nbsp;  OneBitCode todos os direitos reservados</p>
+
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
